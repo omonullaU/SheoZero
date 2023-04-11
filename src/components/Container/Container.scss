@@ -1,0 +1,198 @@
+.container {
+    width: 80%;
+    margin-top: 40px;
+    height: 120vh;
+    // background-color: red;
+    margin: auto;
+
+    .containerTop {
+        width: 100%;
+        height: 200px;
+
+        h1 {
+            font-size: 50px;
+            padding-top: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            padding-top: 20px;
+        }
+    }
+
+
+    .containerBottom {
+        width: 100%;
+        height: 950px;
+        display: flex;
+
+        .containerBottomLeft {
+            width: 43%;
+            height: 100%;
+            // background-color: chartreuse;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-fit: cover;
+            }
+        }
+
+        .containerBottomRight {
+            width: 50%;
+            height: 950px;
+            // background-color: yellow;
+            justify-content: center;
+            display: flex;
+
+            .silderDiv {
+                width: 470px;
+                height: 700px;
+                background-color: #f1f1f1;
+                border-radius: 20px;
+                margin-left: 30%;
+                margin-top: 100px;
+
+                .sliderDivHover {
+                    width: 370px;
+                    height: 300px;
+                    display: none;
+                    position: relative;
+
+                }
+
+                .swiperDivText {
+                    width: 80%;
+                    margin: auto;
+                    height: 50px;
+                    background-color: black;
+                    font-size: 18px;
+                    margin-top: 50px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    margin: auto;
+                    border-radius: 10px;
+                    color: white;
+                }
+
+                .swiperDivText:hover {
+                    background-color: gray;
+                    color: black;
+                }
+
+                .swiperImg {
+                    width: 100%;
+                    height: 499px;
+                    // background-color: sandybrown;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-fit: contain;
+                        position: relative;
+
+
+                    }
+                }
+
+                .sliderLogo {
+                    display: none;
+                }
+
+                .swiperLogo:hover .sliderLogo {
+                    display: block;
+                }
+
+                .swiperImg:hover .sliderDivHover img {
+                    display: block;
+                    width: 370px;
+                    height: 400px;
+                    position: absolute;
+                    z-index: 3;
+
+                }
+
+                h3 {
+                    padding-left: 40px;
+                    padding-top: 20px;
+                }
+
+                p {
+                    padding-left: 40px;
+                    padding-top: 20px;
+                }
+
+            }
+
+
+
+
+
+
+        }
+    }
+}
+
+
+@media screen and (max-width:1600px) {
+    .swiperDivText {
+        width: 300px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1600px) {
+
+    .containerBottom {
+        width: 500px;
+        min-height: 100vh;
+        height: auto;
+        background-color: red;
+        flex-wrap: wrap;
+
+    }
+
+    .silderDiv {
+        width: 350px;
+        height: 450px;
+    }
+}
+
+
+
+@media screen and (max-width:1550px) {
+    .swiperDivText {
+        width: 200px;
+        margin-top: 10px;
+        background-color: red;
+    }
+
+    .containerBottom {
+        flex-direction: column;
+        width: 500px;
+        background-color: red;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .containerBottom {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .silderDiv {
+        width: 400px;
+        height: 500px;
+
+    }
+}

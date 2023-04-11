@@ -1,0 +1,31 @@
+.product {
+    width: 100%;
+    height: 100vh;
+    margin-top: -100px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0517/3195/5883/files/banner_image_5f2622d5-ac11-48ab-82d7-b4ae55b6f717.jpg?v=1679264467&width=2000");
+
+    .navbarBottomBtn {
+        width: 200px;
+        height: 50px;
+        background-color: gray;
+        border-radius: 30px;
+        border: none;
+        font-size: 18px;
+        margin-top: 20px;
+        color: white;
+        margin-left: 15%;
+    }
+
+    .navbarBottomBtn:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .navbarBottomText {
+        padding-left: 15%;
+        padding-top: 20%;
+        font-size: 60px;
+        color: white;
+
+    }
+}

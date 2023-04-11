@@ -1,0 +1,106 @@
+.banner1 {
+    width: 100%;
+    height: 600px;
+    // background-color: red;
+    // overflow: auto;
+    overflow: scroll;
+    min-width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: unset;
+    position: relative;
+    padding-left: 200px;
+
+    .banner {
+        width: 300px;
+        height: 400px;
+        background-color: yellow;
+        align-items: center;
+        // justify-content: center;
+        min-width: 400px;
+        display: inline-flex;
+        transition: 1s;
+        overflow: hidden;
+        border: 1px solid red;
+        border-radius: 20px;
+        margin: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-fit: cover;
+            transition: 1s;
+        }
+
+        .text {
+            color: white;
+            position: absolute;
+        }
+    }
+
+    .banner12 {
+        width: 300px;
+        height: 400px;
+        background-color: yellow;
+        align-items: center;
+        // justify-content: center;
+        min-width: 400px;
+        display: inline-flex;
+        transition: 1s;
+        overflow: hidden;
+        border: 1px solid red;
+        border-radius: 20px;
+        margin: 20px;
+        margin-left: 500px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-fit: cover;
+            transition: 1s;
+        }
+
+        .text {
+            color: white;
+            position: absolute;
+        }
+    }
+
+
+
+
+    .banner13 {
+        width: 300px;
+        height: 400px;
+        background-color: yellow;
+        align-items: center;
+        // justify-content: center;
+        min-width: 400px;
+        display: inline-flex;
+        transition: 1s;
+        overflow: hidden;
+        border: 1px solid red;
+        border-radius: 20px;
+        margin: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-fit: cover;
+            transition: 1s;
+        }
+
+        .text {
+            color: white;
+            position: absolute;
+        }
+
+    }
+
+
+}

@@ -1,0 +1,150 @@
+.banner11 {
+    width: 100%;
+    height: 500px;
+    // background-color: red;
+    // overflow: auto;
+    overflow: scroll;
+    margin-top: 50px;
+    min-width: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: unset;
+    position: relative;
+    padding-left: 800px;
+
+    .banner1 {
+        width: 300px;
+        height: 400px;
+        // background-color: yellow;
+        align-items: center;
+        // justify-content: center;
+        min-width: 400px;
+        display: inline-flex;
+        transition: 1s;
+        overflow: hidden;
+        // border: 1px solid red;
+        border-radius: 20px;
+        margin: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-fit: cover;
+            transition: 1s;
+        }
+
+        .text1 {
+            color: white;
+            position: absolute;
+        }
+    }
+
+    .banner1211 {
+        width: 350px;
+        height: 300px;
+        background-color: #E5E5E5;
+        align-items: center;
+        // justify-content: center;
+        min-width: 500px;
+        display: inline-flex;
+        transition: 1s;
+        overflow: hidden;
+        border: 1px solid red;
+        border-radius: 20px;
+        margin: 20px;
+        margin-left: 800px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-fit: cover;
+            transition: 1s;
+        }
+
+        .text {
+            color: white;
+            position: absolute;
+        }
+    }
+
+
+
+
+    .banner131 {
+        width: 400px;
+        height: 300px;
+        // background-color: yellow;
+        // justify-content: center;
+        min-width: 500px;
+        background-color: #E5E5E5;
+        // display: inline-flex;
+        transition: 1s;
+        // border: 1px solid red;
+        border-radius: 20px;
+        margin: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-fit: cover;
+            transition: 1s;
+        }
+
+        .text1 {
+            color: white;
+            position: absolute;
+        }
+
+        .bannerLogo {
+            width: 100%;
+            height: 170px;
+            padding: 50px;
+            // background-color: blue;
+            display: flex;
+
+            .bannerLogoLeft {
+                width: 20%;
+                height: 100%;
+                // background-color: pink;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                }
+            }
+
+            .bannerLogoRight {
+                width: 70%;
+                height: 100%;
+                // background-color: aqua;
+                padding-left: 30px;
+                padding-top: 20px;
+
+                svg {
+                    color: yellow;
+                }
+
+                p {
+                    font-size: 18px;
+                    padding-top: 10px;
+                }
+
+            }
+        }
+
+        .p {
+            font-size: 20px;
+            padding-left: 4%;
+            margin-top: -20px;
+        }
+
+    }
+
+
+}

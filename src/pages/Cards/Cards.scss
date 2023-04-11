@@ -1,0 +1,153 @@
+.cards {
+    width: 100%;
+    height: 260vh;
+    background-color: #f0f0f0;
+
+    .h1 {
+        text-align: center;
+        font-size: 80px;
+        padding-top: 50px;
+    }
+
+    .cardsItem {
+        width: 80%;
+        margin: auto;
+        // background-color: blue;
+        height: auto;
+        flex-wrap: wrap;
+        min-height: 50vh;
+        display: flex;
+        margin-top: 100px;
+
+        .cardsItemNumber {
+            width: 280px;
+            height: 440px;
+            background-color: white;
+            margin: 10px;
+            // padding-top: 20px;
+
+            .cardsItemNumberImg {
+                width: 100%;
+                height: 200px;
+                // background-color: dodgerblue;
+
+                .termaBox {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    object-fit: cover;
+                    // display: none;
+                }
+
+                .terma {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    object-fit: cover;
+                    margin-top: -200px;
+                    display: none;
+                }
+            }
+
+            .cardsItemNumberImg:hover .terma {
+                display: block;
+            }
+
+
+            .acrdsBtn {
+                width: 120px;
+                border: none;
+                border-radius: 30px;
+                font-size: 17px;
+                margin-top: 20px;
+                margin-left: 7%;
+                height: 50px;
+                background-color: transparent;
+                opacity: 0;
+                color: white;
+                display: none;
+            }
+
+            h3 {
+                padding-left: 30px;
+                font-size: 17px;
+                padding-top: 80px;
+            }
+
+            p {
+                padding-left: 30px;
+                padding-top: 10px;
+            }
+
+            .hoverImg {
+                width: 100%;
+                height: 270px;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    position: absolute;
+                    z-index: 3;
+                }
+            }
+
+            button {
+                width: 100%;
+                height: 40px;
+                background-color: black;
+                color: white;
+                font-size: 17px;
+                // margin-top: 20%;
+                margin-bottom: 0px;
+
+            }
+        }
+
+
+
+        .cardsItemNumber:hover .acrdsBtn {
+            display: block;
+            opacity: 3;
+            background-color: black;
+            position: absolute;
+            z-index: 3;
+        }
+    }
+
+    .foterText {
+        width: 80%;
+        height: 600px;
+        margin: auto;
+        // background-color: red;
+        margin-top: 100px;
+
+        h3 {
+            padding-top: 30px;
+        }
+
+        p {
+            padding-top: 30px;
+            font-size: 17px;
+            line-height: 1.5;
+        }
+    }
+
+}
+
+@media screen and (width:1530px) {
+    .foterText {
+        margin-top: 500px;
+        background-color: blue;
+    }
+}
+
+
+
+@media screen and (width:1030px) {
+    .cards .footer {
+        margin-top: 300px;
+        background-color: blue;
+    }
+}

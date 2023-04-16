@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-import "../Cards/Cards.scss"
+import "../Banner/Banner.scss"
 import data from '../../components/StaticDocument/StaticDocument'
 // import img1 from "../../pages/Banner/img24.png"
 function Cards() {
     // const [data, setData] = useState(data)
     return (
         <div className='cards'>
-            <h1 className='h1'>Marketplace Shoes </h1>
+            <h1 className='h1'>Best Sellers </h1>
+            <h2>Pick Your Custom Shoe Style</h2>
             <div className="cardsItem">
                 {
                     data.map((item, inx) => {

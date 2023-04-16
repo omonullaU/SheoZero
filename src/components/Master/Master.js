@@ -3,7 +3,7 @@ import "../Master/Master.scss"
 function Master() {
     return (
         <div className='master'>
-            <button className='mastrerBtn'>Watch Full Youtube Tutorial on Creating Custom Shoes</button>
+            <button className='mastrerBtn'><h3>Watch Full Youtube Tutorial on Creating Custom Shoes</h3></button>
             <div className="masterWrapper">
                 <div className="masterWrtapperLeft">
                     <div className="masterWrapperTop">
@@ -26,4 +26,4 @@ function Master() {
     )
 }
 
-export default Master
+export default Master           

@@ -3,6 +3,7 @@
     margin: auto;
     height: 888px;
     // background-color: red;
+    margin-top: 200px;
 
     .mastrerBtn {
         width: 40%;
@@ -121,42 +122,65 @@
 
 
 
-@media screen and (max-width:1800px) {
+@media screen and (max-width:1850px) {
     .master {
-        margin-top: 100px;
+        margin-top: 400px;
     }
 }
 
 
 @media screen and (max-width:1600px) {
     .master {
-        margin-top: 100px;
+        margin-top: 300px;
     }
 }
 
 
-@media screen and (max-width:1530px) {
+@media screen and (max-width:1570px) {
     .master {
-        margin-top: 600px;
+        margin-top: 1100px;
+    }
+
+    .mastrerBtn {
+        font-size: 12px;
     }
 }
 
 @media screen and (max-width:1300px) {
     .master {
-        margin-top: 700px;
+        margin-top: 1100px;
+    }
+
+    .mastrerBtn h3 {
+        font-size: 13px;
     }
 }
 
 
 @media screen and (max-width:1100px) {
     .master {
-        margin-top: 700px;
+        margin-top: 1100px;
     }
 }
 
 
 @media screen and (max-width:1050px) {
     .master {
-        margin-top: 1500px;
+        margin-top: 2000px;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+    .master {
+        margin-top: 2000px;
+    }
+
+    .mastrerBtn h3 {
+        font-size: 12px;
+    }
+
+    .navbar {
+        display: none;
     }
 }

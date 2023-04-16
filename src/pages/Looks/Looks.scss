@@ -1,12 +1,14 @@
 .cards {
     width: 100%;
-    height: 260vh;
+    // height: 30vh;
     background-color: #f0f0f0;
+    flex-wrap: wrap;
+    padding-top: 100px;
 
     .h1 {
         text-align: center;
-        font-size: 80px;
-        padding-top: 50px;
+        font-size: 86px;
+        padding-top: 130px;
     }
 
     .cardsItem {
@@ -15,9 +17,9 @@
         // background-color: blue;
         height: auto;
         flex-wrap: wrap;
-        min-height: 100vh;
+        min-height: 40vh;
         display: flex;
-        margin-top: 100px;
+        // margin-top: 100px;
 
         .cardsItemNumber {
             width: 280px;
@@ -25,6 +27,8 @@
             background-color: white;
             margin: 10px;
             // padding-top: 20px;
+            overflow: hidden;
+            margin: 30px;
 
             .cardsItemNumberImg {
                 width: 100%;
@@ -37,6 +41,7 @@
                     object-fit: contain;
                     object-fit: cover;
                     // display: none;
+                    margin-left: 12px;
                 }
 
                 .terma {
@@ -135,20 +140,4 @@
         }
     }
 
-}
-
-@media screen and (width:1530px) {
-    .foterText {
-        margin-top: 500px;
-        background-color: blue;
-    }
-}
-
-
-
-@media screen and (width:1030px) {
-    .cards .footer {
-        margin-top: 300px;
-        background-color: blue;
-    }
 }
